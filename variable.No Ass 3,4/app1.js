@@ -1,3 +1,7 @@
+            // ********* CHAPTER 3 *********
+
+
+
 // Declare a variable called age & assign to it your age. Show your age in an alert box.
 //  var age = "I am 15 years old";
 //  alert(age);
@@ -34,8 +38,12 @@
 // document.write(VisitorName + " ordered " + Quantity + " " + ProductTitle + "(s) on XYZ Clothing store");
 
 //_______________ ********** _______________ *//
- 
-//************** ASSIGNMENT NO 4 **************
+
+
+
+
+ //_______________ ********** _______________ *//
+//************** CHAPTER 4 **************
 
 //1. Declare 3 variables in one statement.
 //let name , age , height;

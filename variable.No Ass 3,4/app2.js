@@ -1,3 +1,7 @@
+  // ********* CHAPTER 5 *********
+
+
+
 // 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.
 // let num1 = +prompt("Please enter first no: ");
 // let num2 = +prompt("Please enter second no: ");
@@ -79,19 +83,36 @@
 
  //_______________ ********** _______________ *//
 
- //_______________ ********** _______________ *//
-//_______________ ********** _______________ *//
-// var str = prompt("Enter some text");
-// for (var i = 0; i < str.length ; i++) {
-// if (str.slice(i, i + 2) === "  ") {
-// alert("No spaces!");
-// break;
-// }
-// }
-let text = "The New Yorker magazine doesn't allow the phrase World War II. They say it should be the Second World War. So let's search the following sentence for the banned characters and replace them with the phrase that the New Yorker prefers. It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien was writing the trilogy, which contains, with the weird applicability available only to poetry and myth, the essential notion that the good gray wizard can understand the evil magi precisely because he is just enough like them to grasp their minds and motives in ways that they cannot grasp his";
- for (var i = 0; i < text.length; i++) {
- if (text.slice(i, i + 9) === "World War") {
- text =  text.slice(0, i) + "the Second World War" + text.slice(i + 9);
- }}
- document.write(text)
-    
+  //5. Write a script to display multiplication table of any number in your browser.
+    // let num = +prompt("Enter a number");
+    // document.write("Table of " + num);
+    // let multiply2  = num + " " + "x" + " "+ 2 + " "+ "=" + num * 2 ;
+    // let multiply1  = num + " " + "x" + " "+ 1 + " "+ "=" + num * 1;
+    // let multiply3  = num + " " + "x" + " "+ 3 + " "+ "=" + num * 3;
+    // let multiply4  = num + " " + "x" + " "+ 4 + " "+ "=" + num * 4;
+    // let multiply5  = num + " " + "x" + " "+ 5 + " "+ "=" + num * 5;
+    // let multiply6  = num + " " + "x" + " "+ 6 + " "+ "=" + num * 6;
+    // let multiply7  = num + " " + "x" + " "+ 7 + " "+ "=" + num * 7;
+    // let multiply8  = num + " " + "x" + " "+ 8 + " "+ "=" + num * 8;
+    // let multiply9  = num + " " + "x" + " "+ 9 + " "+ "=" + num * 9;
+    // let multiply10 = num + " " + "x" + " "+ 10 + " "+ "=" + num * 10;
+    // let table = "<br>" + multiply1 + "<br>" + multiply2 + "<br>" + multiply3  + "<br>" + multiply4  + "<br>" + multiply5  + "<br>" + multiply6  + "<br>" 
+    // + multiply7  + "<br>" + multiply8  + "<br>" + multiply9  + "<br>" + multiply10;
+    // document.write(table);
+
+   //_______________ ********** _______________ *//
+
+
+   // 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
+ //a. Store a Celsius temperature into a variable.
+ //let celsiusTemp = 34;
+ //b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+ //let fahrenTemp = (celsiusTemp * 9/5 ) + 32;
+ // document.write(fahrenTemp + "°F is " + celsiusTemp + "°C" + "<br>");
+ //c. Now store a Fahrenheit temperature into a variable.
+ //let fahrenTemp2 = fahrenTemp;
+ //d. Convert it to Celsius & output “NNoF is NNoC”
+ //let celsiusTemp2 = (fahrenTemp2 - 32 ) * 5/9;
+ //document.write(celsiusTemp2 + "°C is " + fahrenTemp2 + "°F");
+
+
