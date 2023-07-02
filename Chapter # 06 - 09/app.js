@@ -1,4 +1,4 @@
-   // ********* CHAPTER 6-9 *********
+    // ********* CHAPTER 6-9 *********
 
  
  // //1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
