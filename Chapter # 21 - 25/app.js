@@ -1,3 +1,7 @@
+ 
+ // ********* CHAPTER 21-25 *********
+ 
+
  ////1. Write a program that takes two user inputs for first and last name using prompt and merge them in a new variable 
  //titled fullName. Greet the user using his full name.
  //  let firstName = prompt("Please enter your first name.");
@@ -80,7 +84,46 @@
    //_______________ ********** _______________ *//
 
 
-   
+ ////11. Write a program that takes user input. Convert and show the input in title case.
+ //    let input = prompt("Please give any input to convert into capital letters.");
+ //  document.write("User Input: " + input + "<br>");
+ //  function titleCase(string) {
+ //     let sentence = string.toLowerCase().split(" ");
+ //     for (let i = 0; i < sentence.length; i++) {
+ //         sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
+ //     }
+ //     document.write(sentence.join(" "));
+ //     return sentence;
+ // }
+ // document.write("Title case: ");
+ // titleCase(input);
+
+ //_______________ ********** _______________ *//
 
 
+ ////12.  Write a program that converts the variable num to string. var num = 35.36 
+  // let num = 35.36;
+  // document.write("Number: " + num + "<br>");
+  // let convertNum = num.toString();
+  // let result = convertNum.replace(".", "");
+  // document.write("Result: " + result );
  
+  //_______________ ********** _______________ *//
+
+
+  ////16. Write a program to convert the following string to an array using string split method.
+   //var university = “University of Karachi”;
+   // let uni = "University of Karachi"; 
+   //  for( let name of uni){
+   // document.write(name + "<br>");
+   //  }
+ 
+  //_______________ ********** _______________ *//
+
+  
+ ////17. Write a program to display the last character of a user input
+ //  let userInput = prompt("Please enter word or Line:");
+ //  let lastChar = userInput.charAt(userInput.length - 1);
+ //  document.write("<h3>" + "User Input: " + userInput + "<br>" + "</h3");
+ //  document.write("<h3>" + "Last Character of User Input is: " + lastChar + "</h3>" );
+  
